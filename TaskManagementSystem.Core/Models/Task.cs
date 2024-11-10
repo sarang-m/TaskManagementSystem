@@ -22,7 +22,7 @@ namespace TaskManagementSystem.Core.Models
         // "Low", "Medium", "High"
         public TaskPriority Priority { get; set; } = TaskPriority.Medium;
         // "Pending", "In Progress", "Completed"
-        public Enums.TaskStatus Status { get; set; } = Enums.TaskStatus.InpProgress;
+        public Enums.TaskStatus Status { get; set; } = Enums.TaskStatus.InProgress;
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public DateTime DueDate { get; set; }
 

@@ -9,7 +9,7 @@ namespace TaskManagementSystem.Core.Enums
     public enum TaskStatus
     {
         Pending,
-        InpProgress,
+        InProgress,
         Completed
     }
 }
